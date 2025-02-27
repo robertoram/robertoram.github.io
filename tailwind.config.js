@@ -10,7 +10,4 @@ export default {
     extend: {},
   },
   plugins: [],
-  html, body {
-    @apply min-h-screen;
-  },
 };
