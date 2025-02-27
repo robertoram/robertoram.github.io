@@ -1,75 +1,50 @@
-# Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Mi Proyecto Nuxt.js
 
-## Setup
+Este es un sitio web desarrollado con [Nuxt.js](https://nuxt.com/) y TailwindCSS.
 
-Make sure to install dependencies:
+## 🚀 Instalación y configuración
 
-```bash
-# npm
-npm install
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repo.git
+   cd tu-repo
+   ```
 
-# pnpm
-pnpm install
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
 
-# yarn
-yarn install
+3. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
+   El sitio estará disponible en `http://localhost:3000`.
 
-# bun
-bun install
+## 📂 Estructura del proyecto
+
+```
+📁 mi-proyecto-nuxt
+│── 📂 assets        # Recursos estáticos como imágenes y estilos
+│── 📂 components    # Componentes reutilizables
+│── 📂 pages         # Páginas principales del sitio
+│── 📂 public        # Archivos estáticos accesibles desde la web
+│── 📂 layouts       # Plantillas de diseño para las páginas
+│── 📂 store         # Estado global de la aplicación
+│── 📄 nuxt.config.ts  # Configuración de Nuxt.js
+│── 📄 tailwind.config.js # Configuración de TailwindCSS
+│── 📄 package.json  # Dependencias y scripts
 ```
 
-## Development Server
+## 📌 Funcionalidades
 
-Start the development server on `http://localhost:3000`:
+- Diseño responsivo con TailwindCSS.
+- Sección de perfil con redes sociales.
+- Página "Sobre mí" con opción de descarga de CV.
+- Listado de habilidades e intereses.
 
-```bash
-# npm
-npm run dev
+## 📜 Licencia
 
-# pnpm
-pnpm dev
+Este proyecto está bajo la licencia MIT. ¡Siéntete libre de contribuir! 😊
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
