@@ -5,13 +5,13 @@
       <!-- Panel Izquierdo (Ficha de Contacto) -->
       <div class="md:col-span-1 flex flex-col items-center text-center p-4 border-r">
         <img src="/profile.jpg" alt="Foto de perfil" class="w-32 h-32 rounded-full border-4 border-blue-500">
-        <h2 class="mt-4 text-xl font-semibold text-gray-800">Tu Nombre</h2>
-        <p class="text-gray-600">Desarrollador de Software</p>
-        <p class="text-gray-500 text-sm">Empresa Actual</p>
+        <h2 class="mt-4 text-xl font-semibold text-gray-800">Roberto Ramirez</h2>
+        <p class="text-gray-600">+15 Years in Technology & Digital Transformation</p>
+        <p class="text-gray-500 text-sm">Chief Operating Officer at Grupo Fierros</p>
         <div class="flex space-x-4 mt-4">
-          <a href="#" class="text-blue-500 text-2xl"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="text-gray-800 text-2xl"><i class="fab fa-github"></i></a>
-          <a href="#" class="text-blue-400 text-2xl"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/roberto-david-ram%C3%ADrez-euceda-b0695598/" target="_blank" rel="noopener noreferrer" class="text-blue-500 text-2xl"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/robertoram/" target="_blank" rel="noopener noreferrer" class="text-gray-800 text-2xl"><i class="fab fa-github"></i></a>
+          <a href="mailto:rramirez@fierros.com" class="text-blue-400 text-2xl"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
 
